@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main{
     color: white!important;
 }
@@ -175,3 +176,183 @@ textarea{
         padding-left: 100px!important;
     }
 }
+=======
+.main{
+    color: white!important;
+}
+
+#navbar{
+    background-color: #353a40!important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgba(0, 128, 0, 0.54);
+}
+
+#titulo{
+    color: white;
+}
+
+#ticket{
+    color: green;
+}
+
+#ticket:hover{
+    color:rgba(0, 128, 0, 0.54);
+}
+
+#contenedor-foto{
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../tpintegrador/img/ba1.jpg);
+    background-size: cover;  
+    background-position: center;
+}
+
+#boton-ticket{
+    color: white;
+    border-color: green;
+    background-color: green;
+    margin-right: 0% !important;
+    padding-left: 23.5px;
+    padding-right: 23.5px;
+}
+
+#boton-ticket:hover{
+    background-color: rgba(0, 128, 0, 0.54);
+    border-color: white;
+}
+
+#tarjetas{
+    color: black!important;
+}
+
+.imagen-playa{
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+#banner-info{
+    background-color: #353a40!important;
+}
+
+.boton-form{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.boton-form:hover{
+    background-color: rgba(0, 128, 0, 0.54);
+}
+
+.form-control{
+    border: 1px solid rgba(0, 0, 0, 0.184);
+    outline:none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 22px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.form-control:hover{
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.field{
+    border: 1px solid rgba(0, 0, 0, 0.184);
+    outline:none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 22px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.field:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+textarea{
+    width: 100%!important;
+    min-height: 150px;
+    margin-bottom: 0px!important;
+    font-size: 19px!important;
+}
+
+#p-form{
+    font-size: 13px;
+}
+
+#footer{
+    background-image: linear-gradient(to right, rgba(14, 7, 57, 0.974), rgba(28, 11, 102, 0.925))
+}
+
+/*-------------------*/
+
+@media (min-width: 990px){
+    #txt-portada{
+        padding-right: 140px!important;
+        padding-left: 80px!important;
+        font-size: 18px;
+        text-align: right;
+    }
+    
+     #boton-orador {
+        font-size: 18px;
+     }
+     
+     #boton-ticket{
+        font-size: 18px;
+        margin-left: 0.5rem!important;
+     }
+
+}
+
+@media (max-width: 990px){
+
+    #portada{
+        text-align: center;
+        height: 75%!important;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: space-around;
+    }
+
+    #contenedor-form{
+        width: 100%!important;
+    }
+
+    .offcanvas-end {
+        width: 250px!important;
+    }
+
+    #conferencia{
+        color: black!important;
+    }
+
+    #conferencia:hover{
+        color:rgba(0, 128, 0, 0.54);
+    }
+
+}
+
+@media (min-width: 1250px){
+    #navbar{
+        padding-right: 100px!important;
+        padding-left: 100px!important;
+    }
+}
+>>>>>>> fc3fe7391c110b081c25bd3f761e02cc3a7b75d7
