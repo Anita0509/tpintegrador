@@ -38,6 +38,8 @@
     border-color: green;
     background-color: green;
     margin-right: 0% !important;
+    padding-left: 23.5px;
+    padding-right: 23.5px;
 }
 
 #boton-ticket:hover{
@@ -120,12 +122,7 @@ textarea{
 
 /*-------------------*/
 
-@media (min-width: 992px){
-    #navbar{
-        padding-right: 100px!important;
-        padding-left: 100px!important;
-    }
-
+@media (min-width: 990px){
     #txt-portada{
         padding-right: 140px!important;
         padding-left: 80px!important;
@@ -150,6 +147,10 @@ textarea{
         height: 75%!important;
     }
 
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: space-around;
+    }
+
     #contenedor-form{
         width: 100%!important;
     }
@@ -166,4 +167,11 @@ textarea{
         color:rgba(0, 128, 0, 0.54);
     }
 
+}
+
+@media (min-width: 1250px){
+    #navbar{
+        padding-right: 100px!important;
+        padding-left: 100px!important;
+    }
 }
